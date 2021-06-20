@@ -69,7 +69,7 @@ locals {
 
 ## OAC
 module "oac" {
-  source             = "./modules/OAC"
+  source             = "./.terraform/modules/source/oac"
   oac_enabled        = var.oac_enabled
   oac_capacity_type  = var.oac_capacity_type
   oac_capacity_value = var.oac_capacity_value
