@@ -1,0 +1,44 @@
+# config
+tenancy_ocid         = ""
+user_ocid            = ""
+fingerprint          = ""
+private_key_path     = "~/.oci/oci_api_key.pem"
+compartment_ocid = "o"
+region = ""
+
+#switches 
+oac_enabled=false
+adw_enabled =false
+rj_enabled =false
+dbas_enabled =false
+
+# SSH Keys  
+ssh_public_key_path=""
+ssh_private_key_path=""
+
+
+
+# Autonomous Data Warehouse
+autonomous_database_admin_password=""
+
+##DBAS
+database_admin_password= ""
+database_db_unique_name = ""
+database_db_workload = "OLTP"
+database_pdb_name= "PDB1"
+database_version ="19.7.0.0"
+database_shape= "VM.Standard2.1"
+database_shape_prod= "VM.Standard2.2"
+database_storage= "256"
+database_edition="STANDARD_EDITION"//ENTERPRISE_EDITION
+database_nodecount = "1"
+
+## OAC
+oac_name=""
+oac_description=""
+oac_capacity_type = "OLPU_COUNT"
+oac_capacity_value= 1
+oac_capacity_value_prod= 2
+oac_feature_set = "ENTERPRISE_ANALYTICS"//SELF_SERVICE_ANALYTICS
+oac_license_type = "LICENSE_INCLUDED"
+oac_idcs_token = ""
